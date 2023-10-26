@@ -1,0 +1,72 @@
+.center
+{
+    font-size: medium;
+    color: cornsilk;
+    text-align: center;
+    height:450px;
+    width:350px;
+    background-color: skyblue;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 hsl(0, 11%, 95%), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.name
+{
+   text-align: center;
+}
+.title
+{
+    text-align: center;
+    font-family: verdana;
+    color:white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+
+}
+.name2
+{
+    width:70%;
+    height:35px;
+    text-align: center;
+    font-family: verdana;
+    font-size: medium;
+    color:rgb(10, 10, 10);
+    background-color: rgb(245, 247, 243);
+    border:none;
+    border-radius: 20px;
+    box-shadow: black;
+}
+
+.st
+{
+    background-color: rgb(226, 255, 196);
+    width:70%;
+    height:35px;
+    text-align: center;
+    font-family: verdana;
+    font-size: medium;
+    color:red;
+    background-color: rgb(226, 255, 196);
+    border:none;
+    border-radius: 20px;
+
+}
+
+.regbtn
+{
+    padding:15px;
+    font-size: medium;
+    border:none;
+    background-color: aliceblue;
+    border-radius: 20px;
+
+}
+.regbtn:hover{
+    background-color:gray
+    
+    
+
+}

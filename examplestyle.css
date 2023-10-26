@@ -1,0 +1,92 @@
+.center
+{
+    height:420px;
+    width:350px;
+    background-color:rgb(139, 205, 208);
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.heading
+{
+    text-align: center;
+    font-family: verdana;
+    color:white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+
+}
+.ip
+{
+    text-align: center;
+}
+.ipmon
+{
+    width:70%;
+    height:35px;
+    text-align: center;
+    font-family: verdana;
+    font-size: medium;
+    color:red;
+    background-color: rgb(226, 255, 196);
+    border:none;
+    border-radius: 20px;
+}
+.gen
+{
+    background-color: rgb(226, 255, 196);
+    display: inline-block;
+    padding:8px;
+    border-radius: 20px;
+
+}
+.genmon
+{
+    color:red; 
+    font-weight: 500; 
+    font-size: 17px; 
+    font-family: verdana;
+}
+.dist
+{
+    background-color: rgb(226, 255, 196);
+    width:70%;
+    height:35px;
+    text-align: center;
+    font-family: verdana;
+    font-size: medium;
+    color:red;
+    background-color: rgb(226, 255, 196);
+    border:none;
+    border-radius: 20px;
+
+}
+.file
+{
+    padding:8px;
+    background-color: rgb(226, 255, 196);
+    width:70%;
+    border-radius: 20px;
+    border:none;
+    text-align: center;
+    font-family: verdana;
+    font-size: medium;
+    color:red;
+}
+.regbtn
+{
+    padding:15px;
+    font-size: medium;
+    border:none;
+    background-color:rgb(255, 206, 147) ;
+    border-radius: 20px;
+
+}
+.regbtn:hover{
+    background-color:rgb(163, 100, 23) ;
+    color:white;
+    cursor: pointer;
+
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="examplestyle.css">
+</head>
+<body style="background-image: linear-gradient(to right, white, rgb(255, 206, 147));">
+    <div class="center">
+        <div class="heading">
+            <h2>User Registration</h2>
+        </div>
+        <div class="ip">
+            <form>
+                <input type="text" placeholder="Create a username" required class="ipmon">
+                <br>
+                <br>
+                <input type="password" name="pass" class="ipmon" placeholder="Create a password">
+                <br>
+                <br>
+                <div class="gen"> 
+                    <span class="genmon">Male</span><input type="radio" name="gender" >
+                    <span class="genmon">Female</span><input type="radio" name="gender" >
+                    <span class="genmon">Other</span><input type="radio" name="gender" >
+                </div>
+                <br>
+                <br>
+                <select name="district" id="" class="dist">
+                        <option value="">Select District</option>
+                        <option value="Palakkad">Palakkad</option>
+                        <option value="Ernakulam">Ernakulam</option>
+                        <option value="Thrissur">Thrissur</option>
+                        <option value="Kottayam">Kottayam</option>
+                </select>
+                <br>
+                <br>
+                <input type="file" class="file">
+                <br>
+                <br>
+                <input type="submit" value="Register" class="regbtn">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
